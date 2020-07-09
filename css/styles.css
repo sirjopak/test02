@@ -1,0 +1,312 @@
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url('./font/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: OpenSans-SemiBold;
+  src: url('./font/OpenSans-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: Raleway-Bold;
+  src: url('./font/Raleway-Bold.ttf');
+}
+
+body{
+  font-family: OpenSans-SemiBold;
+  color: #070439;
+  margin: 0;
+}
+
+h1{
+  font-family: Raleway-Bold;
+  font-size: 40px;
+  margin: 10px auto;
+}
+
+header > img{
+  margin-right: auto;
+}
+
+header > a{
+  margin: auto 0 auto 80px;
+  text-decoration: none;
+}
+
+header{
+  padding: 80px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bodyA > div{
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.bodyA > div p{
+  font-size: 17px;
+}
+
+.bodyA, .bodyB{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 80px 80px 180px 80px;
+}
+
+.bodyA >.first p{
+  width: 90%;
+}
+
+.formA{
+  margin-top: 25px;
+}
+
+.bodyB{
+  padding: 180px 80px 100px 80px;
+  background-image: url("../images/bg-curve-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bodyB-h1{
+  margin-bottom: 40px;
+}
+
+.second > img{
+  width: 100%;
+}
+
+.formA > input{
+  width: 305px;
+  height: 40px;
+  text-indent: 15px;
+  margin-right: 12px;
+}
+
+.button {
+	background-color:#2F65F9;
+	border-radius:3px;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:14px;
+	font-weight:bold;
+	padding:13px 60px;
+	text-decoration:none;
+  text-align: center;
+  margin: 20px auto 0 auto;
+}
+
+.bodyB > .first{
+  width: 60%;
+}
+
+.bodyB > .second{
+  width: 40%;
+}
+
+.bodyB-p{
+  font-weight: 400;
+  font-size: 15px;
+  width: 68%;
+}
+
+.seehow{
+  display: inline-block;
+  border-bottom: solid;
+  border-width: thin;
+  padding-bottom: 5px;
+  border-color: #3c9f8f;
+}
+
+.seehow-link{
+  text-decoration: none;
+  color: #3c9f8f;
+  font-weight: lighter;
+}
+
+.icon-arrow{
+  vertical-align: sub;
+  margin-left: 5px;
+}
+
+.comment{
+  width: 45%;
+  height: auto;
+  background-color: white;
+  margin-top: 50px;
+  border-color: #F6F5FA;
+  border-radius: 3%;
+  box-shadow: 0 0 10px 10px #F6F5FA;
+}
+
+.comment-section > img{
+  width: 7%;
+  display: block;
+}
+
+.comment-section{
+  width: auto;
+  padding: 25px 35px 3px 35px;
+}
+
+.comment-p{
+  line-height: 2;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.profile-section{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 35px 25px 35px;
+}
+
+.profile-picture{
+  width: auto;
+  display: flex;
+  flex-wrap:wrap;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.profile-detail{
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.profile-detail > * {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin: 0;
+}
+
+.profile-picture > img{
+  width: 30px;
+  height: 30px;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+
+.profile-name{
+  font-family: Raleway-Bold;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.profile-job{
+  font-size: 8px;
+}
+
+.bodyC{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #575989;
+  padding: 80px 80px 80px 80px;
+  color: white;
+}
+
+.bodyC > .first{
+  width: 60%;
+}
+
+.bodyC > .second{
+  width:40%;
+  margin: auto 0;
+}
+
+.bodyC-h{
+  font-size: 30px;
+}
+
+.formB > input{
+  display: block;
+  width:90%;
+  height: 40px;
+  text-indent: 15px;
+}
+
+.formB > .button{
+  display: block;
+  width: 30%;
+  padding:13px 20px;
+  margin: 15px 0 0 0;
+  box-shadow: 0 0 10px 1px #575989;
+}
+
+.bodyC > .first p {
+  font-family: OpenSans-Regular;
+  width: 65%;
+}
+
+::placeholder{
+  color: 	#bfbfbf;
+}
+
+footer{
+  background-color: #070439;
+  color: white;
+  padding: 100px 80px 30px 80px;
+  font-family: OpenSans-Regular;
+}
+
+footer > img{
+  display: block;
+}
+
+.footer-column{
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 2.5;
+}
+
+.footer-column > div{
+  width:25%;
+}
+
+.flist{
+  text-indent: 30%;
+}
+
+.flist a{
+  text-decoration: none;
+  color: white;
+}
+
+dl{
+  margin: 0;
+}
+
+.fcolumnA-item > img{
+  display: inline-block;
+  vertical-align: sub;
+  margin-right: 10px;
+}
+
+.fcolumnA-item > p{
+  display: inline-block;
+  margin: 0 0 5px 0;
+}
+
+.fcolumnD > a img{
+  display: inline-block;
+  width: 8%;
+  margin-right: 15px;
+}
+
+.end{
+  margin-top:100px;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
